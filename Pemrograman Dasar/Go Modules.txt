@@ -1,0 +1,27 @@
+ -- Go Modules --
+Pada bagian ini kita akan belajar cara inisialisasi projek menggunakan Go
+Modules (atau Modules).
+ -- Penjelasan -- 
+Go modules merupakan manajemen dependensi resmi untuk Go. Modules ini
+diperkenalkan pertama kali di go1.11 , sebelum itu pengembangan projek Go
+dilakukan dalam GOPATH .
+Modules digunakan untuk menginisialisasi sebuah projek, sekaligus melakukan
+manajemen terhadap 3rd party atau library lain yang dipergunakan.
+Modules penggunaannya adalah lewat CLI. Dan jika temen-temen sudah sukses
+meng-install Go, maka otomatis bisa mempergunakan Go Modules.
+Modules atau Module disini merupakan istilah untuk project ya. Jadi jangan
+bingung. 
+ -- Inisialisasi Projek Menggunakan
+ - Go Modules
+ Command go mod init digunakan untuk menginisalisasi projek baru.
+ Mari kita praktekan :
+ Silahkan teman-teman buka terminal (bisa menggunakan CMD bawaan windows, powershell, git bash dan yang lain-lain)
+ kemudian teman-teman ketikan code berikut pada terminal teman-teman : 
+ - mkdir projek-pertama
+ - cd project-pertama
+ - go mod init project-pertama
+
+Penjelasan :
+* `mkdir projek-pertama` => kita akan membuat folder dengan nama projek-pertama ( untuk nama folder bebas ya..)
+* `cd project-pertama` => kemudian kita masuk ke directory folder projek-pertama yang sudah kita buat dengan perintah di atas
+* `go mod init project-pertama` => kita akan membuat project golang dan membuat go modules dengan nama project-pertama
