@@ -1,0 +1,10 @@
+Hal pertama yang perlu dilakukan sebelum bisa menggunakan Go adalah menginstall-nya terlebih dahulu. 
+Panduan instalasi sebenarnya sudah disediakan di
+situs resmi Go http://golang.org/doc/install#install.
+
+
+Dikarenakan proses instalasi yang sangat mudah, 
+saya harap teman-teman sudah bisa melakukan instalasi nya sendiri sesuai dengan 
+dokumentasi dari Website resmi Golang :)
+
+Oke, kita lanjut ke pembahasan selanjutnya...
