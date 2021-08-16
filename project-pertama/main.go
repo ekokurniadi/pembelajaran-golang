@@ -7,6 +7,7 @@ func main() {
 }
 
 /*
+
 Keterangan :
  1. Package main => Didalam pemrograman golang wajib memiliki 1 file dengan nama package main. Package main ini disesuaikan dengan
  nama file yang telah kita buat yaitu main.go
